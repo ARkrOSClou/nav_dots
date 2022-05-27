@@ -4,7 +4,7 @@ import Dots from './Dots'
 function App() {
   const [active, setActive] = useState(3)
   const [length, setLength] = useState(10)
-  const [maxWidth, setMaxWidth] = useState(3)
+  const [maxWidth, setMaxWidth] = useState(5)
 
   const list = [
     ['active', active, setActive],
